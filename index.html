@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
   <title>Frontend Mentor | News homepage</title>
+  <link rel="stylesheet" href="./stylesheets/reset.css">
+  <link rel="stylesheet" href="./stylesheets/styles.css">
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -15,6 +15,24 @@
   </style>
 </head>
 <body>
+
+  <nav class="navbar">
+    <img class="navbar__logo" src="./assets/images/logo.svg" alt="Menu Logo">
+    <ul class="navbar__ul">
+
+      <div class="navbar__ul-icon-container">
+        <img class="navbar__close-icon" src="./assets/images/icon-menu-close.svg" alt="Menu Close Icon">
+      </div>
+
+      <li class="navbar__li">Home</li>
+      <li class="navbar__li">New</li>
+      <li class="navbar__li">Popular</li>
+      <li class="navbar__li">Trending</li>
+      <li class="navbar__li">Categories</li>
+    </ul>
+    <img class="navbar__icon" src="./assets/images/icon-menu.svg" alt="Menu Icon">
+  </nav>  
+
 
   Home
   New
@@ -56,5 +74,7 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div>
+
+  <script src="./src/app.js" ></script>
 </body>
 </html>
